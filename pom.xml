@@ -16,9 +16,11 @@
 	<description>Java project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-		
-  <sonar.host.url>http://localhost:9000</sonar.host.url>
+	
     <sonar.login>token12</sonar.login>
+		<sonar.jdbc.username>admin</sonar.jdbc.username>
+    <sonar.jdbc.password>Aarushi12</sonar.jdbc.password>            
+    <sonar.host.url>http://localhost:9000</sonar.host.url>
 
 
 		
