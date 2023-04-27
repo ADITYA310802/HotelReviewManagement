@@ -33,13 +33,15 @@ pipeline {
             }
         }
         
-        stage('SonarQube analysis') {
-            steps {
-                withSonarQubeEnv('Sonarqube') {
-                    sh 'mvn sonar:sonar'
-                }
-            }
-        }
+       	stage('SonarQube analysis') {
+		steps{
+			script{
+				def scannerHome = tool 'SonarRunner_3.3.0';
+			}
+			withSonarQubeEnv('My SonarQube Server') {
+					sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=Jurisprudencia_ORCTXT -Dsonar.sources=. -Dsonar.login=69d977f11910740d9ca95b75cede210db01489c9"
+			}
+		}
     
     }
 }
