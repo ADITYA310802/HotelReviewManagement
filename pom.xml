@@ -15,10 +15,11 @@
 	<description>Java project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-		<sonar.host.url>http://xxxxx:9000</sonar.host.url>
+		 <sonar.host.url>http://xxxxx:9000</sonar.host.url>
   <sonar.login>be2fe3y27f07db354983dfxysdsa5256</sonar.login>
   <sonar.language>java</sonar.language>
   <sonar.scm.provider>git</sonar.scm.provider>
+		
 	</properties>
 	<dependencies>
 		<dependency>
@@ -44,7 +45,7 @@
                         </configuration>
             </plugin>
 			
-			</properties>
+			
 <plugin>
   <groupId>org.sonarsource.scanner.maven</groupId>
   <artifactId>sonar-maven-plugin</artifactId>
