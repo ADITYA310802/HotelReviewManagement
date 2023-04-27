@@ -16,7 +16,8 @@
 	<properties>
 		<java.version>11</java.version>
 		
-  
+  <sonar.host.url>http://localhost:9000</sonar.host.url>
+    <sonar.login>token12</sonar.login>
 
 
 		
@@ -44,7 +45,9 @@
             <mainClass>com.example.springbootdocker.SpringBootDockerApplication</mainClass>
                         </configuration>
            
- 
+    <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.9.1.2184</version>
 </plugin>
         </plugins>
 
