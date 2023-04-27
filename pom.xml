@@ -30,23 +30,16 @@
 	</dependencies>
 
 	<build>
+		
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
-                <execution>
-                    <id>repackage</id>
-                    <goals>
-                        <goal>repackage</goal>
-                    </goals>
-                    <configuration>
-                        <finalName>UPES</finalName>
-                    </configuration>
-                </execution>
-            </executions>
-			</plugin>
-		</plugins>
+      <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+            <mainClass>com.example.springbootdocker.SpringBootDockerApplication</mainClass>
+                        </configuration>
+            </plugin>
+        </plugins>
 	</build>
 
 </project>
