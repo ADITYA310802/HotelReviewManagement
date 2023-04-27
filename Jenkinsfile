@@ -1,5 +1,7 @@
 pipeline {
-  agent {label 'any'}
+  agent {
+        label params.AGENT == "any" ? "" : params.AGENT 
+    }
 
   stages {
     stage('Hello') {
