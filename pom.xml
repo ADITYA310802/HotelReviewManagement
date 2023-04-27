@@ -43,6 +43,18 @@
 			
 			
         </plugins>
+		  <proxies>
+    <proxy>
+      <id>intranet-proxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <username/>
+      <password/>
+      <host>proxy.intra.redacted.com</host>
+      <port>8080</port>
+      <nonProxyHosts>localhost|192.168.56.101</nonProxyHosts>
+    </proxy>
+  </proxies>
 	</build>
 
 </project>
