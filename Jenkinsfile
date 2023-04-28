@@ -34,7 +34,7 @@ pipeline {
         }
         
         
-        node {
+       
   stage('SCM') {
     checkout scm
   }
@@ -44,7 +44,7 @@ pipeline {
       sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=hotel_management -Dsonar.projectName='hotel_management'"
     }
   }
-}
+
         
 //           stage('SonarQube analysis') {
 // //    def scannerHome = tool 'SonarScanner 4.0';
