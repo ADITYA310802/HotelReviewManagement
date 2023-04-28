@@ -18,8 +18,7 @@
 	
   <properties>
          
-   
-	  sonar.java.binaries= **/*.java
+   <java.version>11</java.version>
   </properties>
 	
 		
