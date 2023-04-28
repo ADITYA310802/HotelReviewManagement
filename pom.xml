@@ -15,15 +15,10 @@
 	<name>springboot</name>
 	<description>Java project for Spring Boot</description>
 	
-	<id>sonar</id>
-  <activation>
-   <activeByDefault>true</activeByDefault>
-  </activation>
+	
   <properties>
          
-    <sonar.jdbc.username>admin</sonar.jdbc.username>
-    <sonar.jdbc.password>Aarushi12</sonar.jdbc.password>            
-    <sonar.host.url>http://localhost:9000</sonar.host.url>
+   
 	  <java.version>11</java.version>
   </properties>
 	
