@@ -19,6 +19,15 @@
   <properties>
          
    <java.version>11</java.version>
+	  
+	   <sonar.host.url>http://localhost:9000</sonar.host.url>
+    <sonar.login>token12</sonar.login>
+    <sonar.language>java</sonar.language>
+<!--     <sonar.sources>src/main/java</sonar.sources>
+    <sonar.tests>src/test/java</sonar.tests>
+    <sonar.junit.reportPaths>target/surefire-reports</sonar.junit.reportPaths>
+    <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+ -->
   </properties>
 	
 		
