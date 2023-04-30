@@ -47,14 +47,21 @@
       <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-	       <groupId>org.sonarsource.scanner.maven</groupId>
-  
-  <version>3.2</version>
+	     
                 <configuration>
             <mainClass>com.example.springbootdocker.SpringBootDockerApplication</mainClass>
                         </configuration>
+	     
+		      
 
 </plugin>
+			
+			<plugin>
+				  <groupId>org.sonarsource.scanner.maven</groupId>
+  
+  <version>3.2</version>
+			</plugin>
+				
 			
 	</plugins>
 
