@@ -14,13 +14,11 @@
 	<version>1.0.0</version>
 	<name>springboot</name>
 	<description>Java project for Spring Boot</description>
-	
-	
   <properties>
          
    <java.version>11</java.version>
 	  
-	    <sonar.host.url>http://localhost:9000</sonar.host.url>
+  <sonar.host.url>http://localhost:9000</sonar.host.url>
   <sonar.login>token12</sonar.login>
   <sonar.language>java</sonar.language>
   <sonar.scm.provider>git</sonar.scm.provider>
